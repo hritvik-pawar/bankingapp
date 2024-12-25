@@ -113,6 +113,8 @@ public class AccountController {
 		
 		List<TransactionsDto> list= accountService.getAccountTransactions(accountId);
 		
+		System.out.println("hello world");
+		
 		return ResponseEntity.ok(list);
 	}
 }
